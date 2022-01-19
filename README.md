@@ -10,11 +10,17 @@ There will be one person assigned to review pull requests(changes to the project
 ### Branches
 
 Branches can be thought of as versions of the project, and they can be merged.
+
 There are two branches, main and dev.
+
 Only work on the dev branch, as the main branch should always be error-free.
+
 Check the branch you are on using `git branch`
+
 To switch to the dev branch use `git checkout dev`(checkout here is synonymous with "navigate to")
+
 With the exception of the above two branches, each branch should represent a feature of the project, for example authentication.
+
 For the purposes of this project, to create a new branch under dev and checkout to it we will use the following convention:
 `git checkout -b dev feature/someFeatureYouAreWorkingOn` (the only part you should change is the text after "feature/")
 
