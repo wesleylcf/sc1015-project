@@ -12,6 +12,7 @@ There will be one person assigned to review pull requests(changes to the project
 Branches can be thought of as versions of the project, and they can be merged.
 
 There are two branches, main and dev.
+Branches can be thought of as versions of the project, and they can be merged. There are two branches, main and dev.
 
 Only work on the dev branch, as the main branch should always be error-free.
 
@@ -33,4 +34,5 @@ After making significant updates to your feature run:
 3. `git push`
 
 Significant here is subjective but for simplicity it is safe to interpret it as one large function(around 15 lines), and the project is bug-free.
+
 Running the above commits changes to whatever branch of the project you are at(which should be feature/someFeature). This will not change the overall dev folder unless you create a pull request, and the person assigned to review pull requests, approves it.
