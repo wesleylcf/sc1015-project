@@ -9,6 +9,9 @@ There will be one person assigned to review pull requests(changes to the project
 
 ### Branches
 
+Branches can be thought of as versions of the project, and they can be merged.
+
+There are two branches, main and dev.
 Branches can be thought of as versions of the project, and they can be merged. There are two branches, main and dev.
 
 Only work on the dev branch, as the main branch should always be error-free.
