@@ -47,3 +47,5 @@ Can we predict stock prices accurately for the next day, and propose some tradin
 [https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s](https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s)
 
 [https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest](https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest)
+
+[https://medium.com/geekculture/10-hyperparameters-to-keep-an-eye-on-for-your-lstm-model-and-other-tips-f0ff5b63fcd4](https://medium.com/geekculture/10-hyperparameters-to-keep-an-eye-on-for-your-lstm-model-and-other-tips-f0ff5b63fcd4)
