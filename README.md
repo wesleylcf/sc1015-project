@@ -1,5 +1,3 @@
-# Stock prediction
-
 # Overview
 
 This is a mini-project done for SC1015( Intro to data science and Artificial Intelligence) which focus on predicting stock prizes and analyzing the effectiveness of various trading strategies. The dataset used is extract using the `yfinance` API from Yahoo Finance.
