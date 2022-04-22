@@ -7,10 +7,11 @@ This is a mini-project done for SC1015( Intro to data science and Artificial Int
 The code is already roughly written in the follow order:
 
 1. Data cleaning and preparation
-2. LSTM parameter tuning and model fitting
-3. ARIMA parameter tuning and model fitting
-4. Trading algorithms(Long only, Short only, Long and Short)
-5. Conclusion
+2. Exploratory Data Analysis
+3. LSTM parameter tuning and model fitting
+4. ARIMA parameter tuning and model fitting
+5. Trading algorithms(Long only, Short only, Long and Short)
+6. Conclusion
 
 # Contributors
 
