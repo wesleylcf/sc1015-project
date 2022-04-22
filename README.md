@@ -14,9 +14,9 @@ The code is already roughly written in the follow order:
 
 # Contributors
 
-- Lee Alessandro
-- Brandon Tan
-- Wesley Lim
+- Lee Alessandro (LSTM + Everything else)
+- Brandon Tan (ARIMA + Everything else)
+- Wesley Lim (Trading strategies + Everything else)
 
 # Models used
 
