@@ -1,5 +1,3 @@
-# Stock prediction
-
 # Overview
 
 This is a mini-project done for SC1015( Intro to data science and Artificial Intelligence) which focus on predicting stock prizes and analyzing the effectiveness of various trading strategies. The dataset used is extract using the `yfinance` API from Yahoo Finance.
@@ -15,11 +13,10 @@ The code is already roughly written in the follow order:
 5. Conclusion
 
 # Contributors
-=======
 
-- Lee Alessandro
-- Brandon Tan
-- Wesley Lim
+- Lee Alessandro (LSTM + Everything else)
+- Brandon Tan (ARIMA + Everything else)
+- Wesley Lim (Trading strategies + Everything else)
 
 # Models used
 
@@ -38,7 +35,7 @@ Can we predict stock prices accurately for the next day, and propose some tradin
 # What we learned
 
 - Used LSTM and ARIMA, which are two new models, LSTM being a type of Random Neural Network model, while ARIMA being an Auto-Regressive model
-- Worked with various API’s like `yfinance` , `plotly`, `sklearn`, `statsmodels`
+- Worked with various libraries like `yfinance` , `plotly`, `sklearn`, `statsmodels`
 - Github collaboration
 
 # References
@@ -50,4 +47,3 @@ Can we predict stock prices accurately for the next day, and propose some tradin
 [https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s](https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s)
 
 [https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest](https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest)
-=======
