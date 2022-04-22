@@ -15,6 +15,7 @@ The code is already roughly written in the follow order:
 5. Conclusion
 
 # Contributors
+=======
 
 - Lee Alessandro
 - Brandon Tan
@@ -34,7 +35,7 @@ Can we predict stock prices accurately for the next day, and propose some tradin
 - We were able to *quite* accurately predict stock prices, but even then the maximum profit(based on our limited set of trading strategies used) was quite insignificant
 - This is likely more due to the limitations of our trading algorithm and strategy as the stock prices predicted were quite accurate
 
-# What we learn
+# What we learned
 
 - Used LSTM and ARIMA, which are two new models, LSTM being a type of Random Neural Network model, while ARIMA being an Auto-Regressive model
 - Worked with various API’s like `yfinance` , `plotly`, `sklearn`, `statsmodels`
@@ -49,3 +50,4 @@ Can we predict stock prices accurately for the next day, and propose some tradin
 [https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s](https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s)
 
 [https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest](https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest)
+=======
