@@ -1,38 +1,53 @@
-# Important Notes
+# Stock prediction
 
----
+# Overview
 
-### Initial steps
+This is a mini-project done for SC1015( Intro to data science and Artificial Intelligence) which focus on predicting stock prizes and analyzing the effectiveness of various trading strategies. The dataset used is extract using the `yfinance` API from Yahoo Finance.
 
-refer to [github collaboration guide](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67).
-There will be one person assigned to review pull requests(changes to the project) before merging them to the remote git repository
+*IMPORTANT*: DO NOT RUN “LSTM STEP 2: RUNNING HYPER-PARAMETER TUNING” and “LSTM STEP 4: SLIDING WINDOW ALGORITHM”
 
-### Branches
+The code is already roughly written in the follow order:
 
-Branches can be thought of as versions of the project, and they can be merged.
+1. Data cleaning and preparation
+2. LSTM parameter tuning and model fitting
+3. ARIMA parameter tuning and model fitting
+4. Trading algorithms(Long only, Short only, Long and Short)
+5. Conclusion
 
-There are two branches, main and dev.
-Branches can be thought of as versions of the project, and they can be merged. There are two branches, main and dev.
+# Contributors
+=======
 
-Only work on the dev branch, as the main branch should always be error-free.
+- Lee Alessandro
+- Brandon Tan
+- Wesley Lim
 
-Check the branch you are on using `git branch`
+# Models used
 
-To switch to the dev branch use `git checkout dev`(checkout here is synonymous with "navigate to")
+- LSTM - Long Short-Term Memory
+- ARIMA - Auto-Regressive Integrated Moving Average
 
-With the exception of the above two branches, each branch should represent a feature of the project, for example authentication.
+# Problem definition
 
-For the purposes of this project, to create a new branch under dev and checkout to it we will use the following convention:
-`git checkout -b dev feature/someFeatureYouAreWorkingOn` (the only part you should change is the text after "feature/")
+Can we predict stock prices accurately for the next day, and propose some trading strategy that would maximize our profits ?
 
-### Workflow
+# Conclusion
 
-After making significant updates to your feature run:
+- We were able to *quite* accurately predict stock prices, but even then the maximum profit(based on our limited set of trading strategies used) was quite insignificant
+- This is likely more due to the limitations of our trading algorithm and strategy as the stock prices predicted were quite accurate
 
-1. `git add .`
-2. `git commit -m "description of this commit e.g. update User model"`
-3. `git push`
+# What we learned
 
-Significant here is subjective but for simplicity it is safe to interpret it as one large function(around 15 lines), and the project is bug-free.
+- Used LSTM and ARIMA, which are two new models, LSTM being a type of Random Neural Network model, while ARIMA being an Auto-Regressive model
+- Worked with various API’s like `yfinance` , `plotly`, `sklearn`, `statsmodels`
+- Github collaboration
 
-Running the above commits changes to whatever branch of the project you are at(which should be feature/someFeature). This will not change the overall dev folder unless you create a pull request, and the person assigned to review pull requests, approves it.
+# References
+
+[https://towardsdatascience.com/time-series-forecasting-predicting-stock-prices-using-an-arima-model-2e3b3080bd70](https://towardsdatascience.com/time-series-forecasting-predicting-stock-prices-using-an-arima-model-2e3b3080bd70)
+
+[https://www.youtube.com/watch?v=QIUxPv5PJOY&t=872s](https://www.youtube.com/watch?v=QIUxPv5PJOY&t=872s)
+
+[https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s](https://www.youtube.com/watch?v=5Gm3bWNBoWQ&list=LL&index=3&t=994s)
+
+[https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest](https://www.youtube.com/watch?v=gqryqIlvEoM&ab_channel=DecisionForest)
+=======
