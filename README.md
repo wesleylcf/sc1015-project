@@ -35,7 +35,7 @@ Can we predict stock prices accurately for the next day, and propose some tradin
 
 # What we learned
 
-- Used LSTM and ARIMA, which are two new models, LSTM being a type of Random Neural Network model, while ARIMA being an Auto-Regressive model
+- Used LSTM and ARIMA, which are two new models, LSTM being a type of Recurrent Neural Network model, while ARIMA being an Auto-Regressive model
 - Worked with various libraries like `yfinance` , `plotly`, `sklearn`, `statsmodels`
 - Github collaboration
 
